@@ -1,7 +1,4 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
   border-bottom: 3px rgb(199, 194, 194) solid;
 }
 nav h3 {
@@ -9,5 +6,23 @@ nav h3 {
 }
 nav a {
   color: black;
-font-weight: bold;
+}
+nav a:hover{
+  color: brown;
+  text-decoration: none;
+}
+.img-fluid {
+  height: 560px;
+  clear: both;
+}
+.landing-page {
+  display: flex;
+  margin-top: 70px;
+}
+.float-right h3, h4{
+color: brown;
+}
+.float-right{
+  width: 40%;
+margin-left: 50px;
 }
