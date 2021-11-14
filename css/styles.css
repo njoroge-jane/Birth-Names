@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-bottom: 3px rgb(199, 194, 194) solid;
+}
+nav h3 {
+  color: brown;
+}
+nav a {
+  color: black;
+font-weight: bold;
+}
