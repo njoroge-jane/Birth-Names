@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  <nav class="px-4 navbar fixed-top navbar-light bg-light">
-    <div class="container-fluid">
-      <h3>AKAN-NAMES</h3>
-      <h6><a href="index.html">HOME</a></h6>
-      <h6><a href="generator.html">GENERATE NAME</a></h6>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="px-4 navbar fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <h3>AKAN-NAMES</h3>
+        <h6><a href="index.html">HOME</a></h6>
+        <h6><a href="generator.html">GENERATE NAME</a></h6>
+      </div>
+    </nav>
 
-  <script src="js/bootstrap.js"></script>
-  <script src="js/custom.js"></script>
-</body>
+    <div class="content">
+
+      <div class="input">
+<!-- <form action=""> -->
+<label for="Date">Date</label>
+<input type="number" name="date" id="date" min="1" max="31">
+
+<label for="Date">Month</label>
+<input type="month" name="date" id="date" min="">
+
+<label for="Date">Year</label>
+<input type="number" name="date" id="date" min="1900" max="2100">
+
+<label for="gender">Gender</label>
+<select name="gender" id="gender">
+  <option value="female">Female</option>
+  <option value="male">Male</option>
+</select>
+<!-- </form> -->
+      </div>
+
+      <div class="display_answer">
+<input id="button" class="btn btn-light mt-5 " type="button" value="CHECK NAME">
+<textarea readonly class="text-center" placeholder="Your akan name is Adwoa" name="akan-name" id="akan-name" cols="20" rows="3"></textarea>
+      </div>
+ 
+      <div class="names">
+      <div class="male-names">
+        <h5>Male</h5>
+        <p>Sunday: Kwasi</p>
+        <p>Monday: Kwadwo</p>
+        <p>Tuesday: Kwabena</p>
+        <p>Wednesday: Kwaku</p>
+        <p>Thursday: Yaw</p>
+        <p>Friday: Kofi</p>
+        <p>Saturday: Kwame</p>
+      </div>
+
+      <div class="female-names">
+        <h5>Female</h5>
+        <p>Sunday: Akosua</p>
+        <p>Monday: Adwoa</p>
+        <p>Tuesday: Abenaa</p>
+        <p>Wednesday: Akua</p>
+        <p>Thursday: Yaa</p>
+        <p>Friday: Afua</p>
+        <p>Saturday: Ama</p>
+      </div>
+    </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
