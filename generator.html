@@ -21,14 +21,27 @@
 
       <div class="input">
 <!-- <form action=""> -->
-<label for="Date">Date</label>
-<input type="number" name="date" id="date" min="1" max="31">
+<label for="Day">Day</label>
+<input type="number" name="day" id="day" min="1" max="31">
 
-<label for="Date">Month</label>
-<input type="month" name="date" id="date" min="">
+<label for="month">Month</label>
+<select name="month" id="month">
+  <option value="1">January</option>
+  <option value="2">February</option>
+  <option value="3">March</option>
+  <option value="4">April</option>
+  <option value="5">May</option>
+  <option value="6">June</option>
+  <option value="7">July</option>
+  <option value="8">August</option>
+  <option value="9">September</option>
+  <option value="10">October</option>
+  <option value="11">November</option>
+  <option value="12">DEcember</option>
+</select>
 
-<label for="Date">Year</label>
-<input type="number" name="date" id="date" min="1900" max="2100">
+<label for="year">Year</label>
+<input type="number" name="year" id="year" min="1900" max="2100">
 
 <label for="gender">Gender</label>
 <select name="gender" id="gender">
@@ -39,7 +52,7 @@
       </div>
 
       <div class="display_answer">
-<input id="button" class="btn btn-light mt-5 " type="button" value="CHECK NAME">
+<input onclick="valid(document.getElementById('day').value,document.getElementById('month').value,document.getElementById('year').value,document.getElementById('gender').value)" id="button" class="btn btn-primary mt-5 " type="button" value="CHECK NAME">
 <textarea readonly class="text-center" placeholder="Your akan name is Adwoa" name="akan-name" id="akan-name" cols="20" rows="3"></textarea>
       </div>
  

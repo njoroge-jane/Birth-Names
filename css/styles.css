@@ -68,6 +68,7 @@ select {
   background-color: transparent;
   border: none;
   border-bottom: white 2px solid;
+  width: 150%;
 }
 .display_answer {
 margin-top: 100px;
@@ -86,4 +87,7 @@ label{
 ::placeholder {
   font-weight: bold;
   font-size: 20px;
+}
+option{
+  width: 90%;
 }
