@@ -28,26 +28,26 @@ var validDates = function (day, month, year,gender) {
 //   }
 // };
 
-// // alert (dayOfBirth);
-// var daysOfWeek = [
-//   "Sunday",
-//   "Monday",
-//   "Tuesday",
-//   "Wednesday",
-//   "Thursday",
-//   "Friday",
-//   "Saturday",
-// ];
-// var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-// var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+// alert (dayOfBirth);
+var daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
-// var findDay=function(dateString){
-//   var dt = new Date(dateString);
-//   var weekDay = dt.getDay();
-//   return weekDay;
+var findDay=function(dateString){
+  var dt = new Date(dateString);
+  var weekDay = dt.getDay();
+  return weekDay;
 
-// }
+}
 
-// // alert(weekDay);
-// var gender = ["female", "male"];
+// alert(weekDay);
+var gender = ["female", "male"];
