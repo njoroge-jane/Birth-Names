@@ -1,22 +1,51 @@
 ## README
-### AKAN-NAMES
 
-This website is an akan name generator.Akan people are a tribe from ghana and they usually name their children according to the day of the week they were born this website allows users to know what would have been their name if they were from the akan tribe
+## AKAN-NAMES
+
+This website is an akan-name generator.
+
+Akan people are a tribe from Ghana, and they usually name their children according to the day of the week they were born in.
+
+This website allows users to know what would have been their name if they were from the akan-tribe.
 
 ### AUTHOR
+
 Jane Wanjiru Njoroge
 
-#### USAGE
-Load the website using the live link provided below.
+### SETUP INSTRUCTIONS
 
-When on website navigate to the projects menu.
+Load the webpage on your browser using https://njoroge-jane.github.io/Birth-Names/.
 
-Click on the live links provided below every project to view my previous project.
+On the landing page click on Generate names.
 
-For further interaction contact me on the contacts provided in the footer.
+Fill your birth dates and click on check, this will generate your akan-name in the textarea.
+
+### BDD
+
+This website allows interactioon between communities.
+
+Open for automation to be able to bring even more communities together and appreciation.
+
+The user as per now only fills in their birth-date and generate their akan name.
+
+### TECHNOLOGIES USED
+
+This website used the following technologies:
+
+HTML- For basic structure of the page
+CSS - To style the website.
+JAVASCRIPT - For functionality of the page.
 
 #### LINK
-https://njoroge-jane.github.io/My-Portfolio/
+
+Below is the link to the live website.
+
+https://njoroge-jane.github.io/Birth-Names/
+
+### CONTACT ME
+
+jwnjoroge4@gmail.com
 
 #### LISCENCE
+
 [MIT](https://choosealicense.com/licenses/mit/)
