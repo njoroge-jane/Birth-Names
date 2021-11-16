@@ -24,11 +24,10 @@ var validDates = function (day, month, year,gender) {
       var akanName = maleName[dayOfBirth];
       alert(akanName);
     }
-    document.getElementById("akan-name").innerHTML = akanName;
+    document.getElementById("akan-name").innerHTML =`Your akan name is ${akanName}`;
   }
 };
 
-alert (dayOfBirth);
 var daysOfWeek = [
   "Sunday",
   "Monday",
