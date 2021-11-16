@@ -17,18 +17,18 @@ var validDates = function (day, month, year,gender) {
     alert("Year is invalid");
   } else {
     // return true;
-//     if (gender == "female") {
-//       var akanName = femaleName[dayOfBirth];
-//       alert(akanName);
-//     } else if (gender == "male") {
-//       var akanName = maleName[dayOfBirth];
-//       alert(akanName);
-//     }
-//     document.getElementById("akan-name").innerHTML = akanName;
-//   }
-// };
+    if (gender == "female") {
+      var akanName = femaleName[dayOfBirth];
+      alert(akanName);
+    } else if (gender == "male") {
+      var akanName = maleName[dayOfBirth];
+      alert(akanName);
+    }
+    document.getElementById("akan-name").innerHTML = akanName;
+  }
+};
 
-// alert (dayOfBirth);
+alert (dayOfBirth);
 var daysOfWeek = [
   "Sunday",
   "Monday",
