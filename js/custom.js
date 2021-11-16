@@ -2,9 +2,9 @@ var day = document.getElementById("day").value;
 var month = document.getElementById("month").value;
 var year = document.getElementById("year").value;
 
-var validDates = function (day, month, year,gender) {
-  var fullDate=year+"/"+month+"/"+day;
-  var dayOfBirth=findDay(fullDate);
+var validDates = function (day, month, year, gender) {
+  var fullDate = year + "/" + month + "/" + day;
+  var dayOfBirth = findDay(fullDate);
   if (day === "" || year === "") {
     alert("Fill blanks");
   } else if (year % 4 == 0 && month == 2 && day > 29) {
@@ -24,7 +24,9 @@ var validDates = function (day, month, year,gender) {
       var akanName = maleName[dayOfBirth];
       alert(akanName);
     }
-    document.getElementById("akan-name").innerHTML =`Your akan name is ${akanName}`;
+    document.getElementById(
+      "akan-name"
+    ).innerHTML = `Your akan name is ${akanName}`;
   }
 };
 
@@ -40,13 +42,11 @@ var daysOfWeek = [
 var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
-
-var findDay=function(dateString){
+var findDay = function (dateString) {
   var dt = new Date(dateString);
   var weekDay = dt.getDay();
   return weekDay;
-
-}
+};
 
 // alert(weekDay);
 var gender = ["female", "male"];
