@@ -7,7 +7,7 @@ nav h3 {
 nav a {
   color: black;
 }
-nav a:hover{
+nav a:hover {
   color: brown;
   text-decoration: none;
 }
@@ -19,12 +19,13 @@ nav a:hover{
   display: flex;
   margin-top: 70px;
 }
-.float-right h3, h4{
-color: brown;
+.float-right h3,
+h4 {
+  color: brown;
 }
-.float-right{
+.float-right {
   width: 40%;
-margin-left: 50px;
+  margin-left: 50px;
 }
 .content {
   background-color: chocolate;
@@ -38,7 +39,7 @@ margin-left: 50px;
   display: flex;
   background-color: rgb(128, 128, 128, 0.5);
   margin-right: 40px;
-  height:400px;
+  height: 400px;
   border-radius: 50px;
   margin-top: 40px;
   padding: 50px;
@@ -53,26 +54,27 @@ margin-left: 50px;
 }
 .input {
   display: grid;
-grid-template-columns: repeat(4 6fr);
-margin: 40px;
+  grid-template-columns: repeat(4 6fr);
+  margin: 40px;
+  margin-left: 60px;
 }
 input {
   border: none;
   border-bottom: white 2px solid;
   background-color: transparent;
   color: black;
-  width: 150%;
+  width: 100%;
   padding: -20px;
 }
 select {
   background-color: transparent;
   border: none;
   border-bottom: white 2px solid;
-  width: 150%;
+  width: 100%;
 }
 .display_answer {
-margin-top: 100px;
-text-align: center;
+  margin-top: 100px;
+  text-align: center;
 }
 .display_answer input {
   width: 50%;
@@ -81,13 +83,14 @@ text-align: center;
 textarea {
   margin-top: 30px;
 }
-label{
+label {
   color: white;
+  margin-left: 20px;
 }
 ::placeholder {
   font-weight: bold;
   font-size: 20px;
 }
-option{
+option {
   width: 90%;
 }
