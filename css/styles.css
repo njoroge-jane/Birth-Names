@@ -39,7 +39,7 @@ h4 {
   display: flex;
   background-color: rgb(128, 128, 128, 0.5);
   margin-right: 40px;
-  height: 400px;
+  height: fit-content;
   border-radius: 50px;
   margin-top: 40px;
   padding: 50px;
@@ -93,4 +93,29 @@ label {
 }
 option {
   width: 90%;
+}
+@media  screen and (max-width:1024px) {
+  .landing-page{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    width: 100%;
+    height: auto;
+  }
+  .landing-page p{
+    width: 180%;
+  }
+  img{
+    display: none;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    height: fit-content;
+  }
+  #h6{
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
 }
