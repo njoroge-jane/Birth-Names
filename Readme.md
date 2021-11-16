@@ -1,7 +1,7 @@
 ## README
-### MY PORTFOLIO
+### AKAN-NAMES
 
-This website is a personal professional portfolio on me in the the programming field.
+This website is an akan name generator.Akan people are a tribe from ghana and they usually name their children according to the day of the week they were born this website allows users to know what would have been their name if they were from the akan tribe
 
 ### AUTHOR
 Jane Wanjiru Njoroge
@@ -19,4 +19,4 @@ For further interaction contact me on the contacts provided in the footer.
 https://njoroge-jane.github.io/My-Portfolio/
 
 #### LISCENCE
-MIT
+[MIT](https://choosealicense.com/licenses/mit/)
